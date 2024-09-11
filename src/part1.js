@@ -14,8 +14,6 @@ function Part1() {
           <li><a href="#login" className="login-link">Login</a></li>
         </ul>
       </nav>
-      <p className="JSX-style">This is JSX</p>
-      <a style={{ color: 'black' }}>Course Name</a>
       <Part3 />
     </div>
   );

@@ -4,11 +4,15 @@ import './App.css';
 
 function Part3() {
   return (
-    <ul className="course-list">
-      <li style={{ color: 'black' }}>React</li>
-      <li style={{ color: 'black' }}>React Native</li>
-      <li style={{ color: 'black' }}>Node.js</li>
-    </ul>
+    <>
+      <p className="JSX-style">This is JSX</p>
+      <a className="course-title">Course Name</a>
+      <ul className="course-list">
+        <li>React</li>
+        <li>React Native</li>
+        <li>Node.js</li>
+      </ul>
+    </>
   );
 }
 
